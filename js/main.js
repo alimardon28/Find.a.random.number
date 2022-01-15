@@ -11,6 +11,7 @@ let taxminSon =Number (document.querySelector('.inputGroup').value);
  }else if(taxminSon === tasodifSon){
      document.querySelector('.inputNatija').textContent = 'Tasodifiy son topildi';
      document.querySelector('body').style.backgroundColor = '#60b347';
+     document.querySelector('.inputNatija').style.backgroundColor = '#60b347';
      document.querySelector('.gameSharti').textContent = tasodifSon;
 
      if(imkoniyatlar>rekordDaraja){
