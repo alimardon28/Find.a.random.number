@@ -11,13 +11,15 @@ let taxminSon =Number (document.querySelector('.inputGroup').value);
  }else if(taxminSon === tasodifSon){
      document.querySelector('.inputNatija').textContent = 'Tasodifiy son topildi';
      document.querySelector('body').style.backgroundColor = '#60b347';
+     document.querySelector('.inputNatija').style.backgroundColor = '#60b347';
      document.querySelector('.gameSharti').textContent = tasodifSon;
  }else if(taxminSon > tasodifSon){
      if(imkoniyatlar>1){
         document.querySelector('.inputNatija').textContent = 'Katta son kiritildi';
         imkoniyatlar = imkoniyatlar-1;
         document.querySelector('.imkoniyatlarDarajasi').textContent = imkoniyatlar;
-     }else{ document.querySelector('.inputNatija').textContent = 'Yutqazdingiz (: !';}
+     }else{ document.querySelector('.inputNatija').textContent = 'Yutqazdingiz (: !';
+    }
 }else if(taxminSon < tasodifSon){
     if(imkoniyatlar>1){
         document.querySelector('.inputNatija').textContent = 'Kichik son kiritildi';
