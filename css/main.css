@@ -1,5 +1,10 @@
 .main{
-    border-radius: 54px;
+    height: 80vh;
+    border-radius: 24px;
+}
+
+.main__site{
+    min-height: 120px;
 }
 
 .main__result{
@@ -11,6 +16,18 @@
     min-width: 270px;
 }
 
+.inputButton{
+    min-height: 60px;
+    max-height: 60px;
+}
+
 .resultButton{
-    padding: 4px 7px;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    padding: 11px 7px;
+}
+
+.main__site{
+ border-radius: 24px;
 }
