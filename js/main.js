@@ -4,7 +4,7 @@ let imkoniyatlar = 10;
 
 document.querySelector('.inputButton').addEventListener('click' , function(){
 
-let taxminSon =Number (document.querySelector('.inputGroup').value);
+let taxminSon = Number (document.querySelector('.inputGroup').value);
 
  if(!taxminSon){
     document.querySelector('.inputNatija').textContent = "Son kiritilmadi !";
